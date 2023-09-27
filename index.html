@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Cropper</title>
+    <link rel="stylesheet" href="https://unpkg.com/cropperjs@1.5.12/dist/cropper.css">
+</head>
+<body>
+    <input type="file" id="imageInput">
+    <div>
+        <img id="image" style="display:none; max-width: 300px; max-height:300px;">
+    </div>
+    <button id="cropBtn">Crop</button>
+    <div>
+        <img id="preview" style="max-width: 150px; max-height:150px;">
+    </div>
+    
+    <script src="https://unpkg.com/cropperjs@1.5.12/dist/cropper.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
